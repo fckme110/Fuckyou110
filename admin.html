@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adminbereich – FckMe Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="admin-container">
+    <h2>Bot konfigurieren</h2>
+    <label>Passwort: <input type="password" id="admin-pass" /></label>
+    <button onclick="checkPassword()">Login</button>
+    <div id="admin-panel" style="display:none;">
+      <label>Name: <input type="text" id="bot-name" /></label>
+      <label>Geschlecht:
+        <select id="bot-gender">
+          <option>Männlich</option>
+          <option>Weiblich</option>
+          <option>Nicht-binär</option>
+        </select>
+      </label>
+      <label>Beschreibung:
+        <textarea id="bot-description" rows="4"></textarea>
+      </label>
+      <button onclick="saveBotConfig()">Speichern</button>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
