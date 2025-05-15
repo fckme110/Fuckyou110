@@ -24,7 +24,7 @@ async function getBotReply(userText) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer DEIN_OPENROUTER_KEY"
+      "Authorization": "Bearer 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"
     },
     body: JSON.stringify({
       model: "openchat/openchat-3.5",
