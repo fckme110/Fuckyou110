@@ -1,0 +1,43 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.chat-container, .admin-container {
+  max-width: 500px;
+  margin: auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#chat {
+  min-height: 300px;
+  margin-bottom: 10px;
+  background: #000;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: hotpink;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
