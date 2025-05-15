@@ -24,7 +24,7 @@ async function getBotReply(userText) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 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"
+      "Authorization": "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"
     },
     body: JSON.stringify({
       model: "openchat/openchat-3.5",
@@ -35,5 +35,5 @@ async function getBotReply(userText) {
     })
   });
   const data = await res.json();
-  return data.choices?.[0]?.message?.content || "Keine Antwort erhalten.";
+  return data.choices?.[0]?.message?.content || "willst du meine kleinen brüste.";
 }
